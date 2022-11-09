@@ -13,6 +13,8 @@ path_uol = "df150-uol-tratado.csv"
 
 path_cnn = "df150-cnn-tratado.csv"
 
+path_choquei = "df150-choquei-tratado.csv"
+path_todos = "todos-tratado.csv"
 
 # - TOPO E RODAPÉ ------------------------------------------------------------------------
 html_title="""
