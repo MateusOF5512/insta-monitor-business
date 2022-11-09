@@ -124,14 +124,4 @@ def folha_tabela(df):
         selected_rows = df_grid["selected_rows"]
         selected_rows = pd.DataFrame(selected_rows)
 
-    with col3:
-        st.text("")
-
-    if len(selected_rows) != 0:
-        figB4 = go.Figure()
-        figB4.add_trace(go.Bar(
-            name='Comentários', x=selected_rows['Ano'].sum(), y=selected_rows['inscritos_vestibular'].sum(),
-            hovertemplate="</br><b>Comentários:</b> %{y:.2f}",
-            textposition='none', marker_color=('#4B0082')
-        ))
-        st.plotly_chart(figB4)
+    return selected_rows
