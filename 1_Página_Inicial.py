@@ -7,8 +7,7 @@ im = Image.open("instagram.png")
 st.set_page_config(page_title="Instagram Monitor", page_icon=im, layout="wide")
 # emojis: https://www.webfx.com/tools/emoji-cheat-sheet/
 
-from layout.layout_choquei import *
-from plots.plots_choquei import *
+from layout.layout_folha import *
 from plots.plots_folha import *
 
 
